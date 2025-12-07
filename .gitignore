@@ -11,6 +11,3 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Data files
-data/raw/*.csv
-data/cleaned/*.csv
-tableau/*.csv
