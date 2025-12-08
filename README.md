@@ -1,1 +1,181 @@
-# financial-transactions-analysis
+# **Financial Transactions Analysis Project** – Hackathon 1
+## TEAM D 
+![Screenshot](/images/project%20logo.png)
+### **Datasets Content** 
+
+This Financial Transactions Analysis Project contains Card Information and User Data datasets.  
+
+Card Information dataset includes 
+ 1. Credit and debit card details 
+ 2. Includes card limits, types, and activation dates 
+ 3. Links to customer accounts via card_id 
+ 4. Essential for understanding customer financial profiles 
+
+User Data dataset includes 
+ 1. Demographic information about customers 
+ 2. Account-related details 
+ 3. Enables customer segmentation and personalized analysis 
+
+To understand what data datasets includes, the basic data described below: 
+ - **current_age**  -  Numerical  -  The current age of the individual in years (integer) 
+ - **retirement_age**   -  Numerical  -   The projected retirement age in years (integer) 
+ - **birth_year**  -  Numerical  -  The calendar year of birth (integer) 
+ - **birth_month**  -  Numerical  -  The month of birth (as a number (1 through 12)) 
+ - **gender**  -  Categorical  -  Textual data/string indicating the individual's gender 
+ - **address**  -  Textual  -  Textual data/string containing the address 
+ - **latitude**  -  Numerical   
+ - **longitude**  -  Numerical    
+ - **per_capita_income**  -  Textual  -  Average income per person as a text/string, contains a currency symbol 
+ - **yearly_income**  -  Textual  - The customer's annual income as a text/string, contains a currency symbol 
+ - **total_debt**  -  Textual  -  Debt data stored as a text/string, contains a currency symbol 
+ - **credit_score**  -  Numerical  -  A whole number score representing creditworthiness 
+ - **num_credit_cards**  -  Numerical  -  A count of the number of credit cards the individual possesses (integer) 
+ - **client_id**  -  Numerical  -  A unique numerical identifier assigned to a customer (integer) 
+ - **card_brand**  -  Categorical  -  The name of the card issuer brand, as text/string 
+ - **card_type**  -  Categorical  -  The type of card ("Debit", "Credit", "Prepaid"), as text/string 
+ - **card_number**  -  Numerical  -  The primary 16-digit card number.   
+ - **expires**  -  Textual  -  The card's expiration date, as text/string 
+ - **cvv**  -  Numerical  -  The Card Verification Value (CVC/CVV2) security code  
+ - **has_chip**  -  Categorical  -  A categorical indicator ("Yes", "No")   
+ - **num_cards_issued**  -  Numerical  -  Numerical number of cards issued to the client 
+ - **credit_limit**  -  Textual  -  The maximum amount of credit granted to the cardholder, as a text/string, contains a currency symbol 
+ - **acct_open_date**  -  Textual/Date  -  The date the account was originally opened 
+ - **year_pin_last_changed**  -  Numerical/ Date  -  The year the cardholder last updated their Personal Identification Number (PIN) 
+ - **card_on_dark_web**   -  Categorical  -  A categorical/boolean indicator ("Yes", "No") resulting from a security scan 
+
+### **Data download sources**
+
+https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data 
+
+### **Business Requirements**
+
+The Core Questions are What user characteristics and card attributes predict whether a customer holds multiple cards? and Which types? 
+The core business requirement is to determine which customer characteristics and existing product features that are the most significant indicators that a person is likely to have more than one credit or debit card, as well as the specific type of additional card they are likely to purchase next 
+
+### **Hypotheses and Approaches**
+
+### **Project Plan**
+
+Datasets for the project were taken directly from the Financial Transactions Dataset: Analytics section of the Kaggle website. The data was processed and stored for future use. The data was used to create visualizations that would provide insight into the relationships between variables and help answer hypotheses.  
+
+### **Analysis techniques used**
+
+Preprocessing was performed and the data was adapted for the present work considering the use of the data. 
+
+[you can see Tableau file](/tableu/financial-transactions-analysis.twb)
+
+The data from raw sources: card information dataset and user data dataset were used to merge 2 data files cards_data.csv and users_data.csv in Tableau (with check data types including ensure numeric columns are numbers) into **financial-transactions-analysis.twbx**.  
+![Screenshot1](/images/Tableau.png)
+In Tableau was also presented two line charts, with a common X-axis representing current age (from 18 to over 101 years old), illustrate how the number of credit cards and the amount of total debt affect the number of credit cards and the amount of total debt, namely display a data visualization comparing average credit card usage and total debt levels across different age groups.  
+
+And then a single, unified file **clients_card_data.csv** was created. 
+
+ 
+Then we moved on to the process of extracting, transforming, and loading the data, also using Python in a Jupyter Notebook (including checked data types to ensure that numeric columns were numbers). 
+
+After cleaning and data preparation, we can describe that our dataset contains information about 
+
+```
+ count    2000.000000 
+ mean       45.391500 
+ std        18.414092 
+ min        18.000000 
+ 25%        30.000000 
+ 50%        44.000000 
+ 75%        58.000000 
+ max       101.000000 
+```
+
+We have determined that our dataset contains the following demographic indicators: 
+
+```
+ age_group
+ ≤30      520 
+ 31–40    345 
+ 41-50    380 
+ 51–60    325 
+ 60+      430 
+```
+
+The EDA steps were performed by using the Python modules pandas, matplotlib, seaborn and plotly. 
+
+Histograms visualized that the most common income level is around $20,000, most customers earn less than $40,000, also we have customers with high income levels – up to $160,000 and above, which illustrates significant income inequality;
+
+![Screenshot2](/images/Distribution%20of%20Per%20Capita%20Income.png)
+
+ visualized the classification by gender and age. Using a scatterplot, we indicated the relationship between income and age to examine the growth rate of income by age. The scatterplot visualizes data that suggests that there is a wide range of income across all age groups, with no discernible strong linear correlation.
+
+![Screenshot2](/images/Gender%20Distribution.png)
+![Screenshot2](/images/Distribution%20of%20Current%20Age.png)
+![Screenshot3](/images/Distribution%20of%20Income%20by%20Age.png)
+
+ We have also illustrated the level of debt on graphs for further analysis. 
+ We analyzed and visualized the distribution of credit scores with histogram, which showed that most customers have good or excellent credit scores (above 650), while a smaller number of people have very low scores (below 550). The scores are heavily concentrated in the mid-700 range. The Distribution of Number of Credit Cards histogram showed that it is common among customers to have 1 to 4 credit cards, while having 5 or more cards is rarer. 
+
+![Screenshot](/images/Distribution%20of%20Total%20Debt.png)
+![Screenshot](/images/Distribution%20of%20Credit%20Scores.png)
+![Screenshot](/images/Distribution%20of%20Number%20of%20Credit%20Cards.png)
+
+The dataset contains mostly numeric data with the relevant types listed below. The income distribution (per capita income and annual income) is highly skewed by a few high-income individuals.
+
+```
+per_capita_income    int64
+yearly_income        int64
+total_debt           int64
+dtype: object
+   per_capita_income  yearly_income  total_debt
+0              29278          59696      127613
+1              37891          77254      191349
+2              22681          33483         196
+3             163145         249925      202328
+4              53797         109687      183855
+       per_capita_income  yearly_income     total_debt
+count        2000.000000    2000.000000    2000.000000
+mean        23141.928000   45715.882000   63709.694000
+std         11324.137358   22992.615456   52254.453421
+min             0.000000       1.000000       0.000000
+25%         16824.500000   32818.500000   23986.750000
+50%         20581.000000   40744.500000   58251.000000
+75%         26286.000000   52698.500000   89070.500000
+max        163145.000000  307018.000000  516263.000000
+```
+
+### **Summary of Findings**
+
+Key observations on card brand share: 
+The dominant brand is Mastercard at 52.2%. The second largest brand is Visa at 37.8%. Together, Mastercard and Visa account for exactly 90% of the total card share displayed. The smaller brands are Amex at around 6.5% and Discover at just 3.4%.  
+
+Overall distribution: Market share is highly concentrated between the two leading brands, while all others have a negligible share. 
+
+![Screenshot](/images/summary.png)
+![Screenshot1](/images/statistics.png)
+
+### **Suggestions for further work:**
+
+
+
+### **Ethical considerations**
+
+In accordance with GDPR, no personally identifiable information (PII) was included in the analyses. All data used in this project is public and available for use. 
+
+### **Unfixed bugs**
+
+After conducting a set of tests, we haven't found any bugs. Initial problems have been fixed. 
+
+### **Developement Roadmap**
+
+
+
+### **Main Data Analysis libraries**
+
+**Core Languages:** Python 
+**Data Processing (ETL):** Pandas, NumPy, kagglehub 
+**Visualisation:** Matplotlib, Seaborn,  Scipy, Scikit Learn, Tableau 
+**Version Control:** Git & GitHub 
+
+### **Credits**
+
+The Code Institute course materials for the course “Data Analysis with Artificial Intelligence” were used as a template for the code in this project. 
+The code for feature development was adapted from (https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data) 
+
+All files were created and uploaded to GitHub 
