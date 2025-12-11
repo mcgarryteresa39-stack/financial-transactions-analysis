@@ -1,7 +1,7 @@
 # **Financial Transactions Analysis Project** – Hackathon 1
 ## TEAM D: Alona, Igor and Teresa
 
-## **Financial Transaction** ##
+## **Financial Transaction Analysis to Understand Customer Needs** ##
 
 ![Screenshot](/images/project%20logo.png)
 
