@@ -84,7 +84,7 @@ It will be used to ensure that products created by the bank are best suited to t
 
 - **Short-Term Engagement Among 2010s Clients:** In contrast, clients who joined during the 2010s exhibit intense card usage for only a few years before tapering off. For example, new account openings peaked in 2012–2013, but spending from these cohorts declined rapidly. This suggests that newer generations are less attached to a single provider and more likely to switch services.
 
-## **Strategy Implications**
+**Strategy Implications**
 
 **Service Quality & Experience:** To retain younger clients, the bank must prioritise exceptional service and seamless digital experiences.
 
