@@ -78,19 +78,19 @@ It will be used to ensure that products created by the bank are best suited to t
 
 ## **Tableau Findings**
 
-**Strategic Insights**
+### **Strategic Insights**
 
 - **Long-Term Loyalty Among 1990s Clients:** Analysis of client spending patterns reveals that individuals who joined the bank in the 1990s continue to use their cards actively for 10, 15, even 20+ years. This cohort demonstrates strong brand loyalty and sustained engagement, contributing significantly to long-term revenue.
 
 - **Short-Term Engagement Among 2010s Clients:** In contrast, clients who joined during the 2010s exhibit intense card usage for only a few years before tapering off. For example, new account openings peaked in 2012–2013, but spending from these cohorts declined rapidly. This suggests that newer generations are less attached to a single provider and more likely to switch services.
 
-**Strategy Implications**
+### **Strategy Implications**
 
-**Service Quality & Experience:** To retain younger clients, the bank must prioritise exceptional service and seamless digital experiences.
+- **Service Quality & Experience:** To retain younger clients, the bank must prioritise exceptional service and seamless digital experiences.
 
-**Continuous Promotion**: Ongoing advertising and brand visibility are critical to attract and re-engage this more transient customer base.
+- **Continuous Promotion**: Ongoing advertising and brand visibility are critical to attract and re-engage this more transient customer base.
 
-**Data-Driven Personalization:** Tailoring offers based on age-band financial profiles (e.g., 60+ clients hold 4 cards and spend over $173M) can boost relevance and retention.
+- **Data-Driven Personalization:** Tailoring offers based on age-band financial profiles (e.g., 60+ clients hold 4 cards and spend over $173M) can boost relevance and retention.
 
 ## **Presentation**
 
