@@ -69,6 +69,12 @@ Data clenaing, feature engineering and data preprocessing was performed to prepa
 Analysis was performed using Python and both analysis and visualisation was performed in Tableau (**financial-transactions-analysis.twbx**.)  
 
 ## **Presentation**
+The summary below presents the core findings from the research, offering a comprehensive profile of the bank’s 2,000 customers — 
+including their age range (18 to 101 years), gender distribution (49% male, 51% female), average income ($40,745), credit score (712/850), 
+and banking behaviors such as card usage and transaction volumes. 
+It highlights who the bank’s key customers are, their financial health and how they manage their financial health. 
+
+It will be used to ensure that products are best suited to the needs of our customers.
 
 <img width="1043" height="571" alt="image" src="https://github.com/user-attachments/assets/d582c22e-4cbb-475a-8aff-6dd1bceea915" />
 
