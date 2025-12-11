@@ -148,7 +148,7 @@ In summary, we create a very informative data visualization dashboard "Bank's St
 
 There you will find the 'The dashboard to check the bank's results'  toolbar to verify the bank's results below
 
-![Screenshot1](/images/Screenshot.png)
+![Screenshot1](/images/Dashboard.jpg)
 
 
 ### **Ethical considerations**
