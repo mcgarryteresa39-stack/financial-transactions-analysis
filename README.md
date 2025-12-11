@@ -37,7 +37,8 @@ The features of the datasets are described below:
  - **yearly_income**  -  String (converted to numerical) - The customer's annual income as a text/string, contains a currency symbol 
  - **total_debt**  -  String (converted to numerical) -  Debt data stored as a text/string, contains a currency symbol 
  - **credit_score**  -  Numerical  -  A whole number score representing creditworthiness 
- - **num_credit_cards**  -  Numerical  -  A count of the number of credit cards the individual possesses (integer) 
+ - **num_credit_cards**  -  Numerical  -  A count of the number of credit cards the individual possesses (integer)
+    
  **Cards_data.csv:**
  - **id"** -  Numerical - The unique ID of the customer
  - **client_id**  -  Numerical  -  A unique numerical identifier assigned to a customer (integer) 
@@ -52,6 +53,7 @@ The features of the datasets are described below:
  - **acct_open_date**  -  String/Date  -  The date the account was originally opened 
  - **year_pin_last_changed**  -  Numerical/ Date  -  The year the cardholder last updated their Personal Identification Number (PIN) 
  - **card_on_dark_web**   -  Categorical  -  A categorical/boolean indicator ("Yes", "No") resulting from a security scan 
+ 
  **financial_analysis.csv**
  - **year_month** - Textual - The period of the transaction
  - **card_id** - Numerical - A unique identifier for the bank card used (integer)
@@ -67,7 +69,6 @@ A newly appointed Marketing Manager needs to understand the bank’s customer pr
 - the financial health of the bank 
 
 This dataset was chosen to support that goal by enabling customer segmentation and insight generation.
-<img width="2671" height="279" alt="image" src="https://github.com/user-attachments/assets/635a6203-7e0d-4a38-bd2a-51513d73a9d0" />
 
 ### **Project Plan**
 
