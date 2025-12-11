@@ -68,13 +68,31 @@ Data clenaing, feature engineering and data preprocessing was performed to prepa
 
 Analysis was performed using Python and both analysis and visualisation was performed in Tableau (**financial-transactions-analysis.twbx**.)  
 
-## **Presentation**
+## **Presentation Findings**
 The summary below presents the core findings from the research, offering a comprehensive profile of the bank’s 2,000 customers — 
 including their age range (18 to 101 years), gender distribution (49% male, 51% female), average income ($40,745), credit score (712/850), 
 and banking behaviors such as card usage and transaction volumes. 
 It highlights who the bank’s key customers are, their financial health and how they manage their financial health. 
 
-It will be used to ensure that products are best suited to the needs of our customers.
+It will be used to ensure that products created by the bank are best suited to the needs of our customers.
+
+## **Tableau Findings**
+
+**Strategic Insights**
+
+- **Long-Term Loyalty Among 1990s Clients:** Analysis of client spending patterns reveals that individuals who joined the bank in the 1990s continue to use their cards actively for 10, 15, even 20+ years. This cohort demonstrates strong brand loyalty and sustained engagement, contributing significantly to long-term revenue.
+
+- **Short-Term Engagement Among 2010s Clients:** In contrast, clients who joined during the 2010s exhibit intense card usage for only a few years before tapering off. For example, new account openings peaked in 2012–2013 (199 and 188 respectively), but spending from these cohorts declined rapidly. This suggests that newer generations are less attached to a single provider and more likely to switch services.
+
+## **Strategy Implications**
+
+**Service Quality & Experience:** To retain younger clients, the bank must prioritize exceptional service and seamless digital experiences.
+
+**Continuous Promotion**: Ongoing advertising and brand visibility are critical to attract and re-engage this more transient customer base.
+
+**Data-Driven Personalization:** Tailoring offers based on age-band financial profiles (e.g., 60+ clients hold 4 cards and spend over $173M) can boost relevance and retention.
+
+## **Presentation**
 
 <img width="1043" height="571" alt="image" src="https://github.com/user-attachments/assets/d582c22e-4cbb-475a-8aff-6dd1bceea915" />
 
