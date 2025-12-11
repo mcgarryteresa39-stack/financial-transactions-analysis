@@ -5,23 +5,6 @@
 
 This Financial Transactions Analysis Project contains 3 datasets: Customer Demographic (users_data.csv), Card data (cards_data.csv) and Transaction Information (financial_analysis.csv).  
 
-Card Information dataset includes: 
- 1. Credit and debit card details 
- 2. Includes card limits, types, and activation dates 
- 3. Links to customer accounts via card_id 
- 4. Essential for understanding customer financial profiles 
-
-User Data dataset includes: 
- 1. Demographic information about customers 
- 2. Account-related details 
- 3. Enables customer segmentation and personalized analysis 
-
-Transaction Data:
-1. Detailed transaction records including amounts, timestamps, and merchant details
-2. Covers transactions throughout the 2010s
-3. Features transaction types, amounts, and merchant information
-4. Perfect for analyzing spending patterns and building fraud detection models
-
 The features of the datasets are described below: 
 **user_data.csv**
  - **id** -  Numerical - The unique ID of the customer
@@ -59,7 +42,7 @@ The features of the datasets are described below:
  - **card_id** - Numerical - A unique identifier for the bank card used (integer)
  - **amount** - Numerical - The financial amount of the transaction (floating-point number)
 
-### **Data download source**
+### **Data Source**
 
 https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data 
 
