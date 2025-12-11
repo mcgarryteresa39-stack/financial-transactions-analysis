@@ -1,6 +1,26 @@
 # **Financial Transactions Analysis Project** – Hackathon 1
 ## TEAM D: Alona, Igor and Teresa
+
 ![Screenshot](/images/project%20logo.png)
+
+### **Business Requirement: Scenario Based**
+A newly appointed Marketing Manager needs to understand the bank’s customer profile to design effective marketing communications. The project was split into 2 parts namely to understand:
+- who the customers are
+- the financial health of the bank 
+
+This dataset was chosen to support that goal by enabling customer segmentation and insight generation.
+
+### **Data Source**
+
+https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data 
+
+### **Project Plan**
+
+A Trello board was created to support Project Planning.
+
+**https://trello.com/b/qbunO8Nm/financial-transactions-analysis**
+
+
 ### **Datasets Content** 
 
 This Financial Transactions Analysis Project contains 3 datasets: Customer Demographic (users_data.csv), Card data (cards_data.csv) and Transaction Information (financial_analysis.csv).  
@@ -42,22 +62,9 @@ The features of the datasets are described below:
  - **card_id** - Numerical - A unique identifier for the bank card used (integer)
  - **amount** - Numerical - The financial amount of the transaction (floating-point number)
 
-### **Data Source**
 
-https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data 
 
-### **Business Requirement: Scenario Based**
-A newly appointed Marketing Manager needs to understand the bank’s customer profile to design effective marketing communications. The project was split into 2 parts namely to understand:
-- who the customers are
-- the financial health of the bank 
 
-This dataset was chosen to support that goal by enabling customer segmentation and insight generation.
-
-### **Project Plan**
-
-A Trello board was created to support Project Planning.
-
-**https://trello.com/b/qbunO8Nm/financial-transactions-analysis**
 
 ### **Analysis techniques used**
 
