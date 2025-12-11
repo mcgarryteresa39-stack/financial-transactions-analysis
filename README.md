@@ -29,8 +29,7 @@ This Financial Transactions Analysis Project contains 3 datasets: Customer Demog
 The features of the datasets are described below: 
 
 **user_data.csv**
- - **id** -  Numerical - The unique ID of the customer
- - **current_age**  -  Numerical  -  The current age of the individual in years (integer) 
+  - **current_age**  -  Numerical  -  The current age of the individual in years (integer) 
  - **retirement_age**   -  Numerical  -   The projected retirement age in years (integer) 
  - **birth_year**  -  Numerical  -  The calendar year of birth (integer) 
  - **birth_month**  -  Numerical  -  The month of birth (as a number (1 through 12)) 
@@ -45,7 +44,6 @@ The features of the datasets are described below:
  - **num_credit_cards**  -  Numerical  -  A count of the number of credit cards the individual possesses (integer)
     
  **cards_data.csv:**
- - **id"** -  Numerical - The unique ID of the customer
  - **client_id**  -  Numerical  -  A unique numerical identifier assigned to a customer (integer) 
  - **card_brand**  -  Categorical  -  The name of the card issuer brand, as text/string 
  - **card_type**  -  Categorical  -  The type of card ("Debit", "Credit", "Prepaid"), as text/string 
@@ -63,10 +61,6 @@ The features of the datasets are described below:
  - **year_month** - Textual - The period of the transaction
  - **card_id** - Numerical - A unique identifier for the bank card used (integer)
  - **amount** - Numerical - The financial amount of the transaction (floating-point number)
-
-
-
-
 
 ### **Analysis techniques used**
 
