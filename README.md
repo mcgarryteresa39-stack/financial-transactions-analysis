@@ -24,14 +24,15 @@ A Trello board was created to support Project Planning.
 
 ### **Datasets Content** 
 
-This Financial Transactions Analysis Project contains 3 datasets: Customer Demographic (users_data.csv), Card data (cards_data.csv) and Transaction Information (financial_analysis.csv).  
+This Financial Transactions Analysis Project contains 3 datasets: Customer Demographic (users_data.csv), Card data (cards_data.csv) and Transaction Information (transactions_data_final.csv).  
 
 The features of the datasets are described below: 
 
 **user_data.csv**
+ - **id**  -  Numerical  -  A unique numerical identifier assigned to a customer (integer) 
   - **current_age**  -  Numerical  -  The current age of the individual in years (integer) 
  - **retirement_age**   -  Numerical  -   The projected retirement age in years (integer) 
- - **birth_year**  -  Numerical  -  The calendar year of birth (integer) 
+ - **birth_year**  -  Numerical (converted to date) -  The calendar year of birth (integer) 
  - **birth_month**  -  Numerical  -  The month of birth (as a number (1 through 12)) 
  - **gender**  -  Categorical  -  Textual data/string indicating the individual's gender 
  - **address**  -  String  -  Textual data/string containing the address 
@@ -44,6 +45,7 @@ The features of the datasets are described below:
  - **num_credit_cards**  -  Numerical  -  A count of the number of credit cards the individual possesses (integer)
     
  **cards_data.csv:**
+  - **id**  -  Numerical  -  A unique numerical identifier assigned to a card isssued by the bank (integer) 
  - **client_id**  -  Numerical  -  A unique numerical identifier assigned to a customer (integer) 
  - **card_brand**  -  Categorical  -  The name of the card issuer brand, as text/string 
  - **card_type**  -  Categorical  -  The type of card ("Debit", "Credit", "Prepaid"), as text/string 
@@ -52,15 +54,16 @@ The features of the datasets are described below:
  - **cvv**  -  Numerical  -  The Card Verification Value (CVC/CVV2) security code  
  - **has_chip**  -  Categorical  -  A categorical indicator ("Yes", "No")   
  - **num_cards_issued**  -  Numerical  -  Numerical number of cards issued to the client 
- - **credit_limit**  -  Textual  -  The maximum amount of credit granted to the cardholder, as a text/string, contains a currency symbol 
- - **acct_open_date**  -  String/Date  -  The date the account was originally opened 
+ - **credit_limit**  -  String (converted to numerical)  -  The maximum amount of credit granted to the cardholder, as a text/string, contains a currency symbol 
+ - **acct_open_date**  -  String/Date (converted to date)  -  The date the account was originally opened 
  - **year_pin_last_changed**  -  Numerical/ Date  -  The year the cardholder last updated their Personal Identification Number (PIN) 
  - **card_on_dark_web**   -  Categorical  -  A categorical/boolean indicator ("Yes", "No") resulting from a security scan 
  
- **financial_analysis.csv:**
- - **year_month** - Textual - The period of the transaction
+ **transactions_data_final.csv:**
+ - **year_month** - String (converted to date) - The month and the year of the transaction
  - **card_id** - Numerical - A unique identifier for the bank card used (integer)
- - **amount** - Numerical - The financial amount of the transaction (floating-point number)
+ - **amount** - Numerical - The monthly financial amount of the transaction (floating-point number)
+ - **client_id**  -  Numerical  -  A unique numerical identifier assigned to a customer (integer) 
 
 ### **Analysis techniques used**
 
