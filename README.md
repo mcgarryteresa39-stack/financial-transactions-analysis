@@ -16,6 +16,12 @@ User Data dataset includes
  2. Account-related details 
  3. Enables customer segmentation and personalized analysis 
 
+Transaction Data
+1. Detailed transaction records including amounts, timestamps, and merchant details
+2. Covers transactions throughout the 2010s
+3. Features transaction types, amounts, and merchant information
+4. Perfect for analyzing spending patterns and building fraud detection models
+
 To understand what data datasets includes, the basic data described below: 
  - **current_age**  -  Numerical  -  The current age of the individual in years (integer) 
  - **retirement_age**   -  Numerical  -   The projected retirement age in years (integer) 
@@ -42,6 +48,11 @@ To understand what data datasets includes, the basic data described below:
  - **acct_open_date**  -  Textual/Date  -  The date the account was originally opened 
  - **year_pin_last_changed**  -  Numerical/ Date  -  The year the cardholder last updated their Personal Identification Number (PIN) 
  - **card_on_dark_web**   -  Categorical  -  A categorical/boolean indicator ("Yes", "No") resulting from a security scan 
+ - **year_month** - Textual - The period of the transaction
+ - **card_id** - Numerical - A unique identifier for the bank card used (integer)
+ - **amount** - Numerical - The financial amount of the transaction (floating-point number)
+
+
 
 ### **Data download sources**
 
@@ -51,8 +62,6 @@ https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data
 
 The Core Questions are What user characteristics and card attributes predict whether a customer holds multiple cards? and Which types? 
 The core business requirement is to determine which customer characteristics and existing product features that are the most significant indicators that a person is likely to have more than one credit or debit card, as well as the specific type of additional card they are likely to purchase next 
-
-### **Hypotheses and Approaches**
 
 ### **Project Plan**
 
@@ -64,13 +73,16 @@ Preprocessing was performed and the data was adapted for the present work consid
 
 [you can see Tableau file](/tableu/financial-transactions-analysis.twb)
 
-The data from raw sources: card information dataset and user data dataset were used to merge 2 data files cards_data.csv and users_data.csv in Tableau (with check data types including ensure numeric columns are numbers) into **financial-transactions-analysis.twbx**.  
+The data from raw sources: card information dataset and user data dataset were used to merge 2 data files cards_data.csv, users_data.csv and transactions_data.csv in Tableau (with check data types including ensure numeric columns are numbers) into **financial-transactions-analysis.twbx**.  
 
 ![Screenshot1](/images/Tableau.png)
 
 In Tableau was also presented two line charts, with a common X-axis representing current age (from 18 to over 101 years old), illustrate how the number of credit cards and the amount of total debt affect the number of credit cards and the amount of total debt, namely display a data visualization comparing average credit card usage and total debt levels across different age groups. 
 
-The trends of median of Num Credit Cards and median of Total_Debt for Current Age.  Colour shows details about Gender. The data is filtered on Card Brand and Card Type. The Card Brand filter keeps Amex, Discover, Mastercard and Visa. The Card Type filter keeps Credit, Debit and Debit (Prepaid). The view is filtered on Current Age, which ranges from 18 to 101.
+![Screenshot1](/images/Age_Card_Debt_Spend.png)
+
+The trends of median of Num Credit Cards, median of Total_Debt and sum of Amount for Current Age.  Colour shows details about Gender. The data is filtered on Card Brand, Card Type and Amount. The Card Brand filter keeps Amex, Discover, Mastercard and Visa. The Card Type filter keeps Credit, Debit and Debit (Prepaid). The Amount filter keeps all values. The view is filtered on Current Age, which ranges from 18 to 101 and keeps Null values.
+
 
 ![Screenshot1](/images/Card%20Type.png)
 
@@ -80,9 +92,34 @@ Count of Card Type broken down by Card Brand vs. Card Type.  Colour shows detail
 
 Sum of Num Credit Cards for each Gender.  Colour shows details about Gender. The data is filtered on Card Type and Card Brand. The Card Type filter keeps Credit, Debit and Debit (Prepaid). The Card Brand filter keeps Amex, Discover, Mastercard and Visa.
 
+![Screenshot1](/images/Transaction%20by%20Cards.png)
+
+
+Sum of Amount for each Card Brand broken down by Card Type.  Colour shows details about Card Brand.  The marks are labelled by count of Card Type and sum of Amount. The data is filtered on Gender and Amount. The Gender filter keeps Female and Male. The Amount filter ranges from -638,25 to 21885,76.
+
+![Screenshot1](/images/Yearly%20Spend%20on%20all%20bank's%20cards.png)
+
+The line chart illustrating the "Yearly Spend on all bank's cards" from the year 2010 to 2018. The line chart summarizes the total annual spending across all bank cards, revealing clear trends: initial growth (2010-2013) showed steady, consistent growth over three years, rising to around 60 million by 2013; period of stability (2013-2017) total costs significantly stabilized at a peak level around 60 million and a sharp decline (2017-2018).
+
 ![Screenshot1](/images/Descriptive%20Statistics.png)
 
 The view is broken down by Statistic Type (Parameters), Age Stat., Retirement Age Stat., Total Debt Stat., Yearly Income Stat., PCI Stat., Credit Score Stat., Cards Num Stat. and Credit Limit Stat. The data is filtered on Gender, Card Brand and Card Type. The Gender filter keeps Female and Male. The Card Brand filter keeps Amex, Discover, Mastercard and Visa. The Card Type filter keeps Credit, Debit and Debit (Prepaid).
+
+![Screenshot1](/images/Credit%20Score%20Histogram%20of%20Spending.png)
+
+The stacked bar chart visualization "Credit Score Histogram of Spending" analyzes cost amounts across different credit score ranges. The visualization summarizes the behavior of customers grouped by credit rating quality. The largest amount of spending falls on the Good credit rating range, indicate that customers in the “Good” credit rating range have stable income, debt, and credit card usage patterns, showing high overall spending relative to their limits.
+
+![Screenshot1](/images/30%20Top%20Spenders.png)
+
+The bar chart "30 Top Spenders" ranks clients by their total spending amount and summarizes which clients spend the most and provides demographic insights into those individuals
+
+![Screenshot1](/images/New%20Clients%20by%20Year%20and%20their%20Spending.png)
+
+Two linked line charts, sharing a common X-axis representing the "New Clients by Year and their Spending" from 1994 to beyond 2019, track both the volume of new accounts opened and the associated spending for these clients, categorized by gender (blue and orange lines), summarizing customer acquisition and spending trends over a 25-year period.
+
+![Screenshot1](/images/Banded%20Client%20Ages%20vs%20Financial%20Profile.png)
+
+The bar chart "Banded Client Ages vs Financial Profile," analyzes and  summarizes a strong positive correlation between client age and the total spend by card, the average financial metrics (Credit Score, Cards held, Debt, and Income) are remarkably consistent between the 31-40 and 51-60 age groups. Both groups maintain a "Good" credit score around 710 and average debt and income levels.
 
 We also have created an amazing interactive GEO map in Tableau, where you can find complete information about each customer. Examples of research can be found below
 
@@ -90,9 +127,18 @@ We also have created an amazing interactive GEO map in Tableau, where you can fi
 ![Screenshot1](/images/Customers%20GEO%20map2.png)
 
 Map based on Longitude and Latitude. Colour shows details about Gender. Size shows sum of Num Credit Cards.  Details are shown for various dimensions.
+It summarises the geographic and demographic profile of the bank's customer base. A key observation is that the bank has a high concentration of customers in densely populated areas of the United States, particularly in the eastern states, where spending is high among both men (orange) and women (blue). The map effectively highlights the places where the bank's services are used the most, allowing for analysis of regional spending habits and customer demographics.
+
+In summary, we create a very informative data visualization dashboard "Bank's Story" that organizes various analytical representations of a banking dataset. You can see visible tabs with different reports or analytics. The navigation structure summarises a comprehensive data analysis workflows focused on the bank's customers.
+
+![Screenshot1](/images/banks%20story.png)
+
+There you will find the 'The dashboard to check the bank's results'  toolbar to verify the bank's results below
+
+![Screenshot1](/images/Screenshot.png)
 
 
-And then a single, unified file **clients_card_data.csv** was created. 
+And a single, unified file **clients_card_data.csv** was created. 
 
  
 Then we moved on to the process of extracting, transforming, and loading the data, also using Python in a Jupyter Notebook (including checked data types to ensure that numeric columns were numbers). 
@@ -256,11 +302,13 @@ Overall distribution: Market share is highly concentrated between the two leadin
 
 ![Screenshot](/images/customer%20Overview.png)
 
+![Screenshot](/images/Executive%20summary.png)
 
+![Screenshot](/images/table.png)
 
-### **Suggestions for further work:**
+This analysis will facilitate the development of targeted marketing communications by providing important information about customer profiles.
 
-
+In the future, the data analysis we provide will enable us to improve operational efficiency and increase the bank's revenues. The information obtained as a result of customer segmentation is crucial for optimising marketing activities, which directly leads to improved operational efficiency and increased revenues for the bank.
 
 ### **Ethical considerations**
 
@@ -269,9 +317,6 @@ In accordance with GDPR, no personally identifiable information (PII) was includ
 ### **Unfixed bugs**
 
 After conducting a set of tests, we haven't found any bugs. Initial problems have been fixed. 
-
-### **Developement Roadmap**
-
 
 
 ### **Main Data Analysis libraries**
