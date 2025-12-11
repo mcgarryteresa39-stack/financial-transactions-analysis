@@ -78,7 +78,7 @@ https://trello.com/b/qbunO8Nm/financial-transactions-analysis
 
 Data clenaing, feature engineering and data preprocessing was performed to prepare the data file for the analysis. 
 
-[you can see Tableau file](/tableu/financial-transactions-analysis.twb)
+[you can see Tableau file](/tableu/financial-transactions-analysis.twbx)
 
 Analysis was performed using Python and both analysis and visualisation was performed in Tableau (**financial-transactions-analysis.twbx**.)  
 
