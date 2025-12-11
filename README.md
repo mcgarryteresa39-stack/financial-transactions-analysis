@@ -1,79 +1,86 @@
 # **Financial Transactions Analysis Project** – Hackathon 1
-## TEAM D 
+## TEAM D: Alona, Igor and Teresa
 ![Screenshot](/images/project%20logo.png)
 ### **Datasets Content** 
 
-This Financial Transactions Analysis Project contains Card Information and User Data datasets.  
+This Financial Transactions Analysis Project contains 3 datasets: Customer Demographic (users_data.csv), Card data (cards_data.csv) and Transaction Information (financial_analysis.csv).  
 
-Card Information dataset includes 
+Card Information dataset includes: 
  1. Credit and debit card details 
  2. Includes card limits, types, and activation dates 
  3. Links to customer accounts via card_id 
  4. Essential for understanding customer financial profiles 
 
-User Data dataset includes 
+User Data dataset includes: 
  1. Demographic information about customers 
  2. Account-related details 
  3. Enables customer segmentation and personalized analysis 
 
-Transaction Data
+Transaction Data:
 1. Detailed transaction records including amounts, timestamps, and merchant details
 2. Covers transactions throughout the 2010s
 3. Features transaction types, amounts, and merchant information
 4. Perfect for analyzing spending patterns and building fraud detection models
 
-To understand what data datasets includes, the basic data described below: 
+The features of the datasets are described below: 
+**user_data.csv**
+ - **id** -  Numerical - The unique ID of the customer
  - **current_age**  -  Numerical  -  The current age of the individual in years (integer) 
  - **retirement_age**   -  Numerical  -   The projected retirement age in years (integer) 
  - **birth_year**  -  Numerical  -  The calendar year of birth (integer) 
  - **birth_month**  -  Numerical  -  The month of birth (as a number (1 through 12)) 
  - **gender**  -  Categorical  -  Textual data/string indicating the individual's gender 
- - **address**  -  Textual  -  Textual data/string containing the address 
+ - **address**  -  String  -  Textual data/string containing the address 
  - **latitude**  -  Numerical   
  - **longitude**  -  Numerical    
- - **per_capita_income**  -  Textual  -  Average income per person as a text/string, contains a currency symbol 
- - **yearly_income**  -  Textual  - The customer's annual income as a text/string, contains a currency symbol 
- - **total_debt**  -  Textual  -  Debt data stored as a text/string, contains a currency symbol 
+ - **per_capita_income**  -  String (converted to numerical)  -  Average income per person as a text/string, contains a currency symbol 
+ - **yearly_income**  -  String (converted to numerical) - The customer's annual income as a text/string, contains a currency symbol 
+ - **total_debt**  -  String (converted to numerical) -  Debt data stored as a text/string, contains a currency symbol 
  - **credit_score**  -  Numerical  -  A whole number score representing creditworthiness 
  - **num_credit_cards**  -  Numerical  -  A count of the number of credit cards the individual possesses (integer) 
+ **Cards_data.csv:**
+ - **id"** -  Numerical - The unique ID of the customer
  - **client_id**  -  Numerical  -  A unique numerical identifier assigned to a customer (integer) 
  - **card_brand**  -  Categorical  -  The name of the card issuer brand, as text/string 
  - **card_type**  -  Categorical  -  The type of card ("Debit", "Credit", "Prepaid"), as text/string 
  - **card_number**  -  Numerical  -  The primary 16-digit card number.   
- - **expires**  -  Textual  -  The card's expiration date, as text/string 
+ - **expires**  -  String  -  The card's expiration date, as text/string 
  - **cvv**  -  Numerical  -  The Card Verification Value (CVC/CVV2) security code  
  - **has_chip**  -  Categorical  -  A categorical indicator ("Yes", "No")   
  - **num_cards_issued**  -  Numerical  -  Numerical number of cards issued to the client 
  - **credit_limit**  -  Textual  -  The maximum amount of credit granted to the cardholder, as a text/string, contains a currency symbol 
- - **acct_open_date**  -  Textual/Date  -  The date the account was originally opened 
+ - **acct_open_date**  -  String/Date  -  The date the account was originally opened 
  - **year_pin_last_changed**  -  Numerical/ Date  -  The year the cardholder last updated their Personal Identification Number (PIN) 
  - **card_on_dark_web**   -  Categorical  -  A categorical/boolean indicator ("Yes", "No") resulting from a security scan 
+ **financial_analysis.csv**
  - **year_month** - Textual - The period of the transaction
  - **card_id** - Numerical - A unique identifier for the bank card used (integer)
  - **amount** - Numerical - The financial amount of the transaction (floating-point number)
 
-
-
-### **Data download sources**
+### **Data download source**
 
 https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data 
 
-### **Business Requirements**
+### **Business Requirement: Scenario Based**
+A newly appointed Marketing Manager needs to understand the bank’s customer profile to design effective marketing communications. The project was split into 2 parts namely to understand:
+- who the customers are
+- the financial health of the bank 
 
-The Core Questions are What user characteristics and card attributes predict whether a customer holds multiple cards? and Which types? 
-The core business requirement is to determine which customer characteristics and existing product features that are the most significant indicators that a person is likely to have more than one credit or debit card, as well as the specific type of additional card they are likely to purchase next 
+This dataset was chosen to support that goal by enabling customer segmentation and insight generation.
+<img width="2671" height="279" alt="image" src="https://github.com/user-attachments/assets/635a6203-7e0d-4a38-bd2a-51513d73a9d0" />
 
 ### **Project Plan**
 
-Datasets for the project were taken directly from the Financial Transactions Dataset: Analytics section of the Kaggle website. The data was processed and stored for future use. The data was used to create visualizations that would provide insight into the relationships between variables and help answer hypotheses.  
+A Trello board was created to support Project Planning.
+https://trello.com/b/qbunO8Nm/financial-transactions-analysis
 
 ### **Analysis techniques used**
 
-Preprocessing was performed and the data was adapted for the present work considering the use of the data. 
+Data clenaing, feature engineering and data preprocessing was performed to prepare the data file for the analysis. 
 
 [you can see Tableau file](/tableu/financial-transactions-analysis.twb)
 
-The data from raw sources: card information dataset and user data dataset were used to merge 2 data files cards_data.csv, users_data.csv and transactions_data.csv in Tableau (with check data types including ensure numeric columns are numbers) into **financial-transactions-analysis.twbx**.  
+Analysis was performed using Python and both analysis and visualisation was performed in Tableau (**financial-transactions-analysis.twbx**.)  
 
 ![Screenshot1](/images/Tableau.png)
 
