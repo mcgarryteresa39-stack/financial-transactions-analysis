@@ -39,7 +39,7 @@ The features of the datasets are described below:
  - **credit_score**  -  Numerical  -  A whole number score representing creditworthiness 
  - **num_credit_cards**  -  Numerical  -  A count of the number of credit cards the individual possesses (integer)
     
- **Cards_data.csv:**
+ **cards_data.csv:**
  - **id"** -  Numerical - The unique ID of the customer
  - **client_id**  -  Numerical  -  A unique numerical identifier assigned to a customer (integer) 
  - **card_brand**  -  Categorical  -  The name of the card issuer brand, as text/string 
@@ -73,15 +73,18 @@ This dataset was chosen to support that goal by enabling customer segmentation a
 ### **Project Plan**
 
 A Trello board was created to support Project Planning.
-https://trello.com/b/qbunO8Nm/financial-transactions-analysis
+
+**https://trello.com/b/qbunO8Nm/financial-transactions-analysis**
 
 ### **Analysis techniques used**
 
 Data clenaing, feature engineering and data preprocessing was performed to prepare the data file for the analysis. 
 
-[you can see Tableau file](/tableu/financial-transactions-analysis.twbx)
-
 Analysis was performed using Python and both analysis and visualisation was performed in Tableau (**financial-transactions-analysis.twbx**.)  
+
+## **Presentation**
+<img width="1043" height="571" alt="image" src="https://github.com/user-attachments/assets/d582c22e-4cbb-475a-8aff-6dd1bceea915" />
+
 
 ![Screenshot1](/images/Tableau.png)
 
