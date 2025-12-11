@@ -83,8 +83,20 @@ Data clenaing, feature engineering and data preprocessing was performed to prepa
 Analysis was performed using Python and both analysis and visualisation was performed in Tableau (**financial-transactions-analysis.twbx**.)  
 
 ## **Presentation**
+
 <img width="1043" height="571" alt="image" src="https://github.com/user-attachments/assets/d582c22e-4cbb-475a-8aff-6dd1bceea915" />
 
+<img width="1061" height="609" alt="image" src="https://github.com/user-attachments/assets/ae18bf3c-97c7-4342-b3f1-7f1608b1f56e" />
+
+<img width="1207" height="650" alt="image" src="https://github.com/user-attachments/assets/513dab4d-6ef5-4d5f-9d9d-54b5665f71cc" />
+
+<img width="1163" height="726" alt="image" src="https://github.com/user-attachments/assets/c7dda821-e33d-4e94-aef3-a572843aedf6" />
+
+<img width="1166" height="492" alt="image" src="https://github.com/user-attachments/assets/a65aa1f6-ee09-49b2-8554-25e5518dacc1" />
+
+<img width="991" height="504" alt="image" src="https://github.com/user-attachments/assets/66926b7b-0359-4c0f-92ec-3190e728c1e0" />
+
+## **Tableau**
 
 ![Screenshot1](/images/Tableau.png)
 
