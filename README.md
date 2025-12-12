@@ -79,13 +79,13 @@ The features of the datasets are described below:
 
 ### **Analysis techniques used**
 
-Data clenaing, feature engineering and data preprocessing was performed to prepare the data file for the analysis. 
+Data cleaning, feature engineering and data preprocessing was performed to prepare the data file for the analysis. 
 
 Analysis was performed using Python and both analysis and visualisation was performed in Tableau (**financial-transactions-analysis.twbx**.)  
 
 ## **Presentation Findings**
-The presentation below presents the core findings from the research, offering a comprehensive profile of the bank’s 2,000 customers — 
-including their age range (18 to 101 years), gender distribution (49% male, 51% female), average income ($40,745), credit score (712/850), 
+The presentation below sumamrises the core findings from the research, offering a comprehensive profile of the bank’s 2,000 customers — 
+including their age range (18 to 101 years), gender distribution (49% male, 51% female), average income ($40,745), average credit score (712/850), 
 and banking behaviors such as card usage and transaction volumes. 
 It highlights who the bank’s key customers are, their financial health and how they manage their financial health. 
 
