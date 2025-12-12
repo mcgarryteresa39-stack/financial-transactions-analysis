@@ -140,7 +140,7 @@ It will be used to ensure that products created by the bank are best suited to t
 
 ![Screenshot1](/images/Card%20Type.png)
 
-**This chart compares the number of credit cards held by Female and Male users, segmented by card brand and card type. Color indicates card brand, and labels show the count of each card type. The data is filtered to include both Females and Males.**
+**This chart compares the number of credit cards held by Female and Male users.**
 
 ![Screenshot1](/images/Gender%20Card%20Preference.png)
 
