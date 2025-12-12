@@ -140,7 +140,7 @@ It will be used to ensure that products created by the bank are best suited to t
 
 ![Screenshot1](/images/Gender%20Card%20Preference.png)
 
-Sum of Num Credit Cards for each Gender.  Colour shows details about Gender. The data is filtered on Card Type and Card Brand. The Card Type filter keeps Credit, Debit and Debit (Prepaid). The Card Brand filter keeps Amex, Discover, Mastercard and Visa.
+**This chart illustrates total transaction volume by card brand and card type, segmented by gender. Each bar shows the number of cards issued and the corresponding transaction amount, with color indicating gender. Filters include Credit, Debit, and Debit (Prepaid) card types, and Amex, Discover, Mastercard, and Visa brands.**
 
 ![Screenshot1](/images/Transaction%20by%20Cards.png)
 
