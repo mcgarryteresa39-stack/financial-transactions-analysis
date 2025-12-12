@@ -129,8 +129,6 @@ It will be used to ensure that products created by the bank are best suited to t
 
 **This dashboard visualises how average credit card count and total debt vary across age groups, filtered by card brand and type.**
 
-**In Tableau, we created charts with a shared X-axis representing current age (18 to 101+), visualising how average credit card usage and total debt levels vary across age groups to highlight financial behavior trends over the lifespan.**
-
 ![Screenshot1](/images/Tableau.png)
 
 **This visualisation displays trends in median credit card count, median total debt, and total spending across age groups, with color indicating gender. The data is filtered to include Amex, Discover, Mastercard, and Visa card brands; Credit, Debit, and Debit (Prepaid) card types; and all spending amounts. The age filter spans from 18 to 101 years and includes null values.**
