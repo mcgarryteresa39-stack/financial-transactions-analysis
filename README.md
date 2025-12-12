@@ -149,11 +149,11 @@ It will be used to ensure that products created by the bank are best suited to t
 ![Screenshot1](/images/Transaction%20by%20Cards.png)
 
 
-**This line chart shows total yearly spending across all bank card brands from 2010 to 2018, segmented by card type and gender. Color indicates card brand, and each mark is labeled with the number of cards and total spend. Filters include Female and Male genders, all card brands and types, and a full range of transaction amounts.**
+**This line chart shows total yearly spending across all bank card brands from 2010 to 2018. Spending rose steadily from 2010 to 2013, plateaued at around 60 million through 2017, and then declined sharply in 2018.**
 
 ![Screenshot1](/images/Yearly%20Spend%20on%20all%20bank's%20cards.png)
 
-**This analysis highlights yearly spending trends across all bank card brands from 2010 to 2018. Spending rose steadily from 2010 to 2013, plateaued at around 60 million through 2017, and then declined sharply in 2018. The accompanying table summarizes key median financial and demographic metrics, including age (44), retirement age (66), total debt ($58,251), yearly income ($40,744.50), PCI statistic ($20,581), credit score (712), number of cards (3), and credit limit ($12,592.50).**
+**This analysis summarises key median financial and demographic metrics, including age (44), retirement age (66), total debt ($58,251), yearly income ($40,744.50), PCI statistic ($20,581), credit score (712), number of cards (3), and credit limit ($12,592.50).**
 
 ![Screenshot1](/images/Descriptive%20Statistics.png)
 
@@ -161,29 +161,24 @@ It will be used to ensure that products created by the bank are best suited to t
 
 ![Screenshot1](/images/Credit%20Score%20Histogram%20of%20Spending.png)
 
-The bar chart "30 Top Spenders" ranks clients by their total spending amount and summarizes which clients spend the most and provides demographic insights into those individuals.
+**This bar chart ranks the top 30 clients by total spending, with each bar representing an individual’s transaction volume. Color indicates gender, and annotations display each client’s age and number of cards issued, offering demographic insights into high-value customers.**
 
 ![Screenshot1](/images/30%20Top%20Spenders.png)
 
-The bar chart "30 Top Spenders" ranks clients by their total spending amount and summarizes which clients spend the most and provides demographic insights into those individuals
+**This dual-line chart tracks the number of new accounts opened and the total spending by new clients over time, segmented by gender. The X-axis represents the year of account opening, while the Y-axes show account count and spending volume. The visualization reveals trends in client acquisition and financial engagement across different years.**
 
 ![Screenshot1](/images/New%20Clients%20by%20Year%20and%20their%20Spending.png)
 
-Two linked line charts, sharing a common X-axis representing the "New Clients by Year and their Spending" from 1994 to beyond 2019, track both the volume of new accounts opened and the associated spending for these clients, categorized by gender (blue and orange lines), summarizing customer acquisition and spending trends over a 25-year period.
+**This bar chart presents financial profiles segmented by age bands, showing total spending alongside key metrics such as median credit score, number of cards, total debt, income, and client count. Each age group—from under 30 to over 60—reveals distinct financial behaviors and demographic patterns.**
 
 ![Screenshot1](/images/Banded%20Client%20Ages%20vs%20Financial%20Profile.png)
 
-The bar chart "Banded Client Ages vs Financial Profile," analyzes and  summarizes a strong positive correlation between client age and the total spend by card, the average financial metrics (Credit Score, Cards held, Debt, and Income) are remarkably consistent between the 31-40 and 51-60 age groups. Both groups maintain a "Good" credit score around 710 and average debt and income levels.
-
-We also have created an amazing interactive GEO map in Tableau, where you can find complete information about each customer. Examples of research can be found below
+**This interactive geographic map displays individual clients across the United States, with each data point revealing detailed financial and demographic information such as income, credit score, age, gender, and card type. The visualization enables user-level exploration and supports deeper research into regional spending patterns and customer profiles. This amazing interactive GEO map was create in Tableau, where you can find complete information about each customer. Examples of research can be found below.** 
 
 ![Screenshot1](/images/Customers%20GEO%20map.png)
 ![Screenshot1](/images/Customers%20GEO%20map2.png)
 
-Map based on Longitude and Latitude. Colour shows details about Gender. Size shows sum of Num Credit Cards.  Details are shown for various dimensions.
-It summarises the geographic and demographic profile of the bank's customer base. A key observation is that the bank has a high concentration of customers in densely populated areas of the United States, particularly in the eastern states, where spending is high among both men (orange) and women (blue). The map effectively highlights the places where the bank's services are used the most, allowing for analysis of regional spending habits and customer demographics.
-
-In summary, we create a very informative data visualization dashboard "Bank's Story" that organizes various analytical representations of a banking dataset. You can see visible tabs with different reports or analytics. The navigation structure summarises a comprehensive data analysis workflows focused on the bank's customers.
+**This dashboard, titled "Bank’s Story," presents a comprehensive geographic and demographic overview of the bank’s customer base across the United States. The map uses longitude and latitude to plot individual clients, with color indicating gender and size representing the total number of credit cards held. It highlights regions with high customer density—particularly in the eastern states—and reveals spending patterns among male and female clients. The dashboard includes multiple tabs that organize analytical reports, enabling detailed exploration of client behavior, financial metrics, and regional trends.**
 
 ![Screenshot1](/images/banks%20story.png)
 
