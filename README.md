@@ -204,6 +204,10 @@ After conducting a set of tests, we haven't found any bugs. Initial problems hav
 ### **Credits**
 
 The Code Institute course materials for the course “Data Analysis with Artificial Intelligence” were used as a template for the code in this project. 
+
 The code for feature development was adapted from (https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data) 
+
+The following GutHUb File Strucure Visualizer was used. 
+https://r3cla.github.io/HubTree/
 
 All files were created and uploaded to GitHub 
