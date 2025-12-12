@@ -36,7 +36,7 @@ A Trello board was created to support Project Planning.
 
 ### **Datasets Content** 
 
-This Financial Transactions Analysis Project contains 3 datasets: Customer Demographic (users_data.csv), Card data (cards_data.csv) and Transaction Information (transactions_data_final.csv).  
+This project contains 3 datasets: Customer Demographic (users_data.csv), Card data (cards_data.csv) and Transaction Information (transactions_data_final.csv).  
 
 The features of the datasets are described below: 
 
@@ -99,13 +99,13 @@ It will be used to ensure that products created by the bank are best suited to t
 
 - **Short-Term Engagement Among 2010s Clients:** In contrast, clients who joined during the 2010s exhibit intense card usage for only a few years before tapering off. For example, new account openings peaked in 2012–2013, but spending from these cohorts declined rapidly. This suggests that newer generations are less attached to a single provider and more likely to switch services.
 
-### **Strategy Implications**
+### **Strategy Implications and Recommendations**
 
 - **Service Quality & Experience:** To retain younger clients, the bank must prioritise exceptional service and seamless digital experiences.
 
 - **Continuous Promotion**: Ongoing advertising and brand visibility are critical to attract and re-engage this more transient customer base.
 
-- **Data-Driven Personalization:** Tailoring offers based on age-band financial profiles (e.g., 60+ clients hold 4 cards and spend over $173M) can boost relevance and retention.
+- **Data-Driven Personalisation:** Tailoring offers based on age-band financial profiles (e.g., 60+ clients hold 4 cards and spend over $173M) can boost relevance and retention.
 
 ## **Presentation**
 
@@ -121,11 +121,13 @@ It will be used to ensure that products created by the bank are best suited to t
 
 <img width="991" height="504" alt="image" src="https://github.com/user-attachments/assets/66926b7b-0359-4c0f-92ec-3190e728c1e0" />
 
-## **Tableau**
+# **Tableau Dashboard**
+
+**This dashboard visualises how average credit card count and total debt vary across age groups, filtered by card brand and type.**
 
 ![Screenshot1](/images/Tableau.png)
 
-In Tableau was also presented two line charts, with a common X-axis representing current age (from 18 to over 101 years old), illustrate how the number of credit cards and the amount of total debt affect the number of credit cards and the amount of total debt, namely display a data visualization comparing average credit card usage and total debt levels across different age groups. 
+**In Tableau, we created charts with a shared X-axis representing current age (18 to 101+), visualising how average credit card usage and total debt levels vary across age groups to highlight financial behavior trends over the lifespan.**
 
 ![Screenshot1](/images/Age_Card_Debt_Spend.png)
 
