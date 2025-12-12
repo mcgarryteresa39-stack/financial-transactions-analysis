@@ -131,12 +131,12 @@ It will be used to ensure that products created by the bank are best suited to t
 
 ![Screenshot1](/images/Age_Card_Debt_Spend.png)
 
-The trends of median of Num Credit Cards, median of Total_Debt and sum of Amount for Current Age.  Colour shows details about Gender. The data is filtered on Card Brand, Card Type and Amount. The Card Brand filter keeps Amex, Discover, Mastercard and Visa. The Card Type filter keeps Credit, Debit and Debit (Prepaid). The Amount filter keeps all values. The view is filtered on Current Age, which ranges from 18 to 101 and keeps Null values.
+**This visualisation displays trends in median credit card count, median total debt, and total spending across age groups, with color indicating gender. The data is filtered to include Amex, Discover, Mastercard, and Visa card brands; Credit, Debit, and Debit (Prepaid) card types; and all spending amounts. The age filter spans from 18 to 101 years and includes null values.**
 
 
 ![Screenshot1](/images/Card%20Type.png)
 
-Count of Card Type broken down by Card Brand vs. Card Type.  Colour shows details about Card Brand.  The marks are labelled by count of Card Type. The data is filtered on Gender, which keeps Female and Male.
+**This chart compares the number of credit cards held by Female and Male users, segmented by card brand and card type. Color indicates card brand, and labels show the count of each card type. The data is filtered to include both Females and Males.**
 
 ![Screenshot1](/images/Gender%20Card%20Preference.png)
 
