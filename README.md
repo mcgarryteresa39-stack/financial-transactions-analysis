@@ -12,6 +12,18 @@ A newly appointed Marketing Manager needs to understand the bank’s customer pr
 
 This dataset was chosen to support that goal by enabling customer segmentation and insight generation.
 
+### **Project Overview**
+
+This repository contains a complete analytics workflow exploring user and card-level financial data. 
+
+It includes data cleaning, aggregation, statistical testing, and visualization across Python and Tableau. 
+
+The project focuses on identifying meaningful patterns in debt, income, and card ownership, with insights segmented by age bands and customer profiles. 
+
+Final results are presented through reproducible Python scripts, Tableau dashboards, and a concise presentation deck. 
+
+All datasets, analysis scripts, and visual outputs are organized for clarity and portfolio readiness.
+
 ### **Data Source**
 
 https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data 
