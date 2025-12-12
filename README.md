@@ -129,14 +129,14 @@ It will be used to ensure that products created by the bank are best suited to t
 
 **This dashboard visualises how average credit card count and total debt vary across age groups, filtered by card brand and type.**
 
-![Screenshot1](/images/Tableau.png)
-
 **In Tableau, we created charts with a shared X-axis representing current age (18 to 101+), visualising how average credit card usage and total debt levels vary across age groups to highlight financial behavior trends over the lifespan.**
 
-![Screenshot1](/images/Age_Card_Debt_Spend.png)
+![Screenshot1](/images/Tableau.png)
 
 **This visualisation displays trends in median credit card count, median total debt, and total spending across age groups, with color indicating gender. The data is filtered to include Amex, Discover, Mastercard, and Visa card brands; Credit, Debit, and Debit (Prepaid) card types; and all spending amounts. The age filter spans from 18 to 101 years and includes null values.**
+![Screenshot1](/images/Age_Card_Debt_Spend.png)
 
+**This chart compares the number of credit cards segmented by card brand and card type. Color indicates card brand, and labels show the count of each card type. The data is filtered to include both Females and Males.**
 
 ![Screenshot1](/images/Card%20Type.png)
 
@@ -149,19 +149,19 @@ It will be used to ensure that products created by the bank are best suited to t
 ![Screenshot1](/images/Transaction%20by%20Cards.png)
 
 
-Sum of Amount for each Card Brand broken down by Card Type.  Colour shows details about Card Brand.  The marks are labelled by count of Card Type and sum of Amount. The data is filtered on Gender and Amount. The Gender filter keeps Female and Male. The Amount filter ranges from -638,25 to 21885,76.
+**This line chart shows total yearly spending across all bank card brands from 2010 to 2018, segmented by card type and gender. Color indicates card brand, and each mark is labeled with the number of cards and total spend. Filters include Female and Male genders, all card brands and types, and a full range of transaction amounts.**
 
 ![Screenshot1](/images/Yearly%20Spend%20on%20all%20bank's%20cards.png)
 
-The line chart illustrating the "Yearly Spend on all bank's cards" from the year 2010 to 2018. The line chart summarizes the total annual spending across all bank cards, revealing clear trends: initial growth (2010-2013) showed steady, consistent growth over three years, rising to around 60 million by 2013; period of stability (2013-2017) total costs significantly stabilized at a peak level around 60 million and a sharp decline (2017-2018).
+**This analysis highlights yearly spending trends across all bank card brands from 2010 to 2018. Spending rose steadily from 2010 to 2013, plateaued at around 60 million through 2017, and then declined sharply in 2018. The accompanying table summarizes key median financial and demographic metrics, including age (44), retirement age (66), total debt ($58,251), yearly income ($40,744.50), PCI statistic ($20,581), credit score (712), number of cards (3), and credit limit ($12,592.50).**
 
 ![Screenshot1](/images/Descriptive%20Statistics.png)
 
-The view is broken down by Statistic Type (Parameters), Age Stat., Retirement Age Stat., Total Debt Stat., Yearly Income Stat., PCI Stat., Credit Score Stat., Cards Num Stat. and Credit Limit Stat. The data is filtered on Gender, Card Brand and Card Type. The Gender filter keeps Female and Male. The Card Brand filter keeps Amex, Discover, Mastercard and Visa. The Card Type filter keeps Credit, Debit and Debit (Prepaid).
+**This bar chart illustrates total spending across five credit score bands, highlighting how consumer behavior varies by creditworthiness. Each bar represents the aggregated amount spent by individuals within a specific credit score range, with detailed breakdowns including median debt, income, credit limit, and number of cards. Gender-based insights and individual credit score profiles further enrich the analysis.**
 
 ![Screenshot1](/images/Credit%20Score%20Histogram%20of%20Spending.png)
 
-The stacked bar chart visualization "Credit Score Histogram of Spending" analyzes cost amounts across different credit score ranges. The visualization summarizes the behavior of customers grouped by credit rating quality. The largest amount of spending falls on the Good credit rating range, indicate that customers in the “Good” credit rating range have stable income, debt, and credit card usage patterns, showing high overall spending relative to their limits.
+The bar chart "30 Top Spenders" ranks clients by their total spending amount and summarizes which clients spend the most and provides demographic insights into those individuals.
 
 ![Screenshot1](/images/30%20Top%20Spenders.png)
 
