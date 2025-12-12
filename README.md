@@ -24,6 +24,10 @@ Final results are presented through reproducible Python scripts, Tableau dashboa
 
 All datasets, analysis scripts, and visual outputs are organized for clarity and portfolio readiness.
 
+### **GitHub File Structure**
+
+![Team-D Github Data Structure](/images/Team-D_Github_Data_Structure.png)
+
 ### **Data Source**
 
 https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data 
