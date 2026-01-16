@@ -207,7 +207,7 @@ The Code Institute course materials for the course “Data Analysis with Artific
 
 The code for feature development was adapted from (https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data) 
 
-The following GutHUb File Strucure Visualizer was used. 
+The following GutHub File Structure Visualizer was used. 
 https://r3cla.github.io/HubTree/
 
 All files were created and uploaded to GitHub 
